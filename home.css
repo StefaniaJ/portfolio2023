@@ -1,0 +1,243 @@
+section{
+    min-height: 100vh;
+}
+
+
+/* HERO */
+.home-hero-section {
+    padding-top: 94px;
+    position: relative;
+}
+h1{
+    padding-top: 7vh;
+}
+h4 {
+    padding-bottom: 40px;
+}
+.container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.field {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 100px;
+    position: absolute;
+    /* top: 1rem; */
+    bottom: 50px;
+    cursor: pointer;
+}
+.mouse {
+	width: 35px;
+	height: 65px;
+	border: 2px solid var(--text-color);
+	border-radius: 60px;
+	position: relative;
+	&::before {
+		content: '';
+		width: 10px;
+		height: 10px;
+		position: absolute;
+		top: 10px;
+		left: 50%;
+		transform: translateX(-50%);
+		background-color: var(--text-color);;
+		border-radius: 50%;
+		opacity: 1;
+		animation: wheel 2s infinite;
+		-webkit-animation: wheel 2s infinite;
+	}
+}
+@keyframes wheel {
+	to {
+		opacity: 0;
+		top: 60px;
+	}
+}
+@-webkit-keyframes wheel {
+	to {
+		opacity: 0;
+		top: 60px;
+	}
+}
+
+
+/*  ABOUT */
+.home-about-section img{
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+    object-position: 100% 32%;
+    margin-bottom: 40px;
+}
+h2{
+    padding-bottom: 40px;
+}
+.home-about-section h2{
+    padding-bottom: 20px;
+}
+.home-about-section p{
+    font-size: 18px;
+}
+
+
+/* PROJECTS */
+.main-projects {
+    margin-bottom: 80px;
+    cursor: pointer;
+}
+.projects-section a {
+    text-decoration: none;
+}
+.main-projects img {
+    width: 100%;
+    height: 100%;
+}
+.main-projects div{
+    text-align: center;
+}
+h3 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.main-projects div p{
+    display: none;
+}
+
+@media only screen and (min-width:540px) {
+    .home-about-section img {
+        height: 362px;
+    }
+    .main-projects{
+        margin-bottom: 120px;
+    }
+    h3{
+        padding-top: 40px;
+    }
+
+}
+@media only screen and (min-width:768px) {
+    h1{
+        padding-top: 10vh;
+    }
+    h2{
+        padding-bottom: 80px;
+    }
+    h3{
+        padding-top: 40px;
+    }
+    .home-about-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .home-about-section div {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        align-self: center; 
+        z-index: 2;
+        margin-left: 0vh;
+    }
+    .home-about-section img{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        justify-self: end;
+        width: 100%;
+        margin-bottom: 0px;
+        height: 100%;
+    }
+    .home-about-section .spacing{
+        padding-right: 20px;
+    }
+    .main-projects{
+        margin-bottom: 160px;
+    }
+    h4{
+        padding-bottom: 80px;
+    }
+}
+@media only screen and (min-width:872px) {
+    .main-projects {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr 0.5fr;
+        grid-template-columns: 1fr 0.5fr;
+    }
+    .project-right img{
+        min-height: 300px;
+        object-fit: cover;
+    }
+    .main-projects div {
+        min-width: 331px;
+        text-align: left;
+    }
+    .project-left div{
+    padding-left: 40px;
+    }
+    .project-right {
+        -ms-grid-columns: 0.5fr 1fr;
+        grid-template-columns: 0.5fr 1fr;
+    }
+    .project-right img {
+        grid-column: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .project-right div {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+}
+@media only screen and (min-width:912px) {
+    .home-about-section p{
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width:1024px) {
+    .home-about-section {
+        grid-template-columns: 2fr 1fr;
+    }
+    .home-about-section p{
+        font-size: 23px;
+    }
+    h4{
+        padding-bottom: 40px;
+    }
+    .project-left div{
+        padding-left: 50px;
+    }
+
+}
+@media only screen and (min-width:1280px) {
+    .home-about-section {
+        grid-template-columns: 1fr 1fr;
+    }
+    .home-about-section .spacing{
+        padding-right:40px
+    }
+    .home-about-section p{
+        font-size: 24px;
+    }
+    .home-about-section img{
+        height: 100vh;
+    }
+    .main-projects div p{
+        display: block;
+        padding-bottom: 40px;
+    }
+    .project-right div{
+        padding-right: 50px;
+    }
+    h3 {
+        padding-top: 80px;
+    }
+    h4{
+        padding-bottom: 20px;
+    }
+}

@@ -1,0 +1,428 @@
+
+/* Rista */
+#rista-main .hero-project img{
+  max-width: 80%;
+}
+.max_img{
+  max-width: 750px;
+}
+
+#rista-main h5{
+  padding-bottom: 12px;
+  font-size: 22px;
+}
+
+
+#img_grid_3 img{
+  width: 90%;
+  max-width: 300px;
+  padding-top: 20px;
+}
+
+
+#rista-main .max_img_container{
+  background-color: #f6efe957;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+#rista-main .max_img_container img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.spation_sect{
+  padding-bottom: 50px;
+}
+
+
+/* Photomake */
+#photomake-main{
+  max-width: 850px;
+}
+.grid-two-col p{
+  max-width: 750px;
+}
+
+h5{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.photomake-wrap h3{
+  padding-top: 44px;
+  padding-bottom: 16px;
+}
+.photomake-wrap h4{
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 32px;
+  padding-bottom: 16px;
+}
+.photomake-wrap h5{
+  padding-bottom: 4px;
+}
+.photomake-wrap img{
+  max-width: 690px;
+}
+.photomake-wrap p{
+  max-width: 750px;
+}
+
+.img-wrap{
+  background-color: #e9d0ac66;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.img-wrap img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.img-space{
+  padding-bottom: 16px;
+
+}
+
+.mySlides {display:none;}
+
+.slider_container{
+padding-top: 48px;
+padding-bottom: 48px;
+position: relative;
+}
+
+.slider_project {
+  padding: 40px 40px;
+  max-width: 690px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.slider_buttons_container{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+  margin-top: 48px;
+}
+
+.slider_buttons_container button{
+  padding: 20px 40px;
+}
+
+.space_ul{
+  padding-left: 20px;
+}
+
+.slider_container h4{
+padding-top: 24px;
+font-size: 24px;
+}
+
+.slider_container li{
+  padding-top: 5px;
+}
+
+
+
+
+  .main{
+    margin-top: 94px;
+  }
+
+  .ideel-yellow{
+    background-color: #fffbf3;
+  }
+  .photomake-color{
+    background-color: #D6A965;
+  }
+  .photomake-color-transp{
+    background-color: #d6a9658a;
+  }
+  .rista-color{
+    background-color: #dfb87f;
+  }
+
+
+img{
+    width: 100%;
+  }
+p, li{
+  font-size: 18px;
+  }
+h2{
+  padding-bottom: 20px;
+  }
+section{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.hero-project{
+  padding-bottom: 60px;
+  padding-top: 80px;
+  text-align: center;
+}
+.hero-project img{
+  width: 100%;
+}
+.hero-project h3{
+  padding-bottom: 20px;
+  }
+.overview-project div{
+  padding-bottom: 20px;
+  }
+  .overview-project p{
+    max-width: 750px;
+  }
+.overview-project span{
+  font-weight: bold;
+  }
+.section-center img{
+  padding-top: 40px;
+  }
+
+.section-img{
+    padding-bottom: 0px;
+    padding-top: 80px;
+}
+
+ /* section{
+    min-height: 100vh;
+} */
+#ideel-main .hero-project img{
+  transform: rotate(17deg);
+  width: 83%;
+}
+
+@media only screen and (min-width:360px){
+  .photomake-wrap h4{
+    font-size: 24px;
+  }
+  .photomake-wrap h5{
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width:412px){
+  .photomake-wrap h3{
+    padding-top: 50px;
+  }
+  .photomake-wrap h4{
+    font-size: 27px;
+    padding-top: 40px;
+  }
+
+  .photomake-wrap h5{
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width:540px){
+  .photomake-wrap h4{
+    font-size: 30px;
+  }
+  .photomake-wrap h5{
+    font-size: 24px;
+  }
+}
+
+
+  @media only screen and (min-width:768px){
+    #img_grid_3{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      }
+      
+    p, li{
+      font-size: 20px;
+    }
+    .photomake-wrap h4{
+      font-size: 44px;
+    }
+    .photomake-wrap h5{
+      font-size: 32px;
+      padding-bottom: 16px;
+    }
+    .section-pading{
+      padding-top: 160px;
+    }
+
+  .hero-project h3{
+    font-size: 38px;
+    font-family: unset;
+    font-weight: 100;
+     }
+    
+    .section-center{
+      text-align: center;
+    }
+    .section-center .text-centered{
+      max-width: 920px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .section-center img{
+      width: 80% !important;
+  }
+
+  }
+  @media only screen and (min-width:820px){
+.section-center{
+  padding-top: 80px;
+}
+  }
+  @media only screen and (min-width:912px){
+    .section-center p{
+   font-size: 24px;
+    }
+
+    .section-center{
+      padding-top: 120px;
+      padding-bottom: 80px;
+    }
+
+    /* Photomake */
+    .grid-two-col{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .grid-two-col p{
+      max-width: 400px;
+    }
+      
+  }
+
+  @media only screen and (min-width:1024px){
+    #photomake-main .hero-project{
+display: block;
+    }
+
+
+    .hero-project{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      /* text-align: unset; */
+      }
+  .hero-project div {
+      grid-column: 2/3;
+      grid-row: 1/2;
+      align-self: center; 
+  }
+  .hero-project img{
+      grid-column: 1/2;
+      grid-row: 1/2;
+      align-self: center; 
+  }
+
+  #photomake-main .hero-project img{
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+
+  .overview-project{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 0;
+    padding-right: 0;
+  }
+  
+  .overview-project div{
+  padding-right: 10px;
+  }
+  .overview-project p{
+    font-size: 16px;
+   }
+   .overview-project h2{
+   padding-top: 20px;
+   }
+
+   .grid-two-col{
+    column-gap: 30px;
+  }
+
+  .grid-two-col p{
+    max-width: 500px;
+  }
+
+
+    /* .slider_buttons_container{
+      display: flex;
+      width: 100%;
+      margin-top: 0px;
+      position: absolute;
+      top: 50%;
+      justify-content: space-between;
+      padding-left: 4%;
+      padding-right: 4%;
+    }
+     */
+  }
+  @media only screen and (min-width:1280px){
+    .photomake-wrap h2{
+      font-size: 65px;
+    }
+
+    .hero-project{
+    min-height: 80vh;
+      }
+    .overview-project p{
+      font-size: 24px;
+    }
+
+    .section-center img{
+      width: 65% !important;
+    }
+    .slider_buttons_container{
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+
+    .grid-two-col p{
+      max-width: 670px;
+    }
+    
+  }
+
+  @media only screen and (min-width:1400px){
+    .hero-project{
+    min-height: 100vh;
+      }  
+  }
+
+  @media only screen and (min-width:1536px){
+    .spacing{
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .spacing-sect{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .slider_buttons_container{
+      padding-left: 15%;
+      padding-right: 15%;
+    }
+
+
+    #rista-main .hero-project{
+      padding-left: 50px;
+    }
+
+    .hero-project img{
+      width: 90%;
+    }
+
+    
+  }
